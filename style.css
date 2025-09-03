@@ -1,0 +1,49 @@
+/*CSS commments are different than html comments*/
+/*NO html here */
+
+body {
+    background-color: beige;
+    text-align: center;
+}
+
+h2, h3 { font-variant: small-caps;} 
+
+
+main{
+        border: 1px solid blue;
+            width: 50%;
+            margin: auto;
+            border-radius: 3px;
+            box-shadow: 2px 5px 5px grey;
+}
+
+
+nav, footer {
+    background-color:lightgrey;
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+a:link,
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    background-color: purple;
+    color: beige;
+}
+
+section {
+    border-top: 2px double lightgrey;
+}
+
+header {
+    background-color: darkblue;
+    color:white;
+}
