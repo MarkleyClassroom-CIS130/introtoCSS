@@ -1,0 +1,37 @@
+<!-- 
+Validator extension
+live server
+
+1-> practice anchors, special charac and target blank
+    <a href="index.html">Home</a> &#127804; <a href="https://www.instagram.com/liloandstitch/?hl=en" target="_blank">Fan
+        Site</a>
+1.5 -> Add the rest and surround in divs to seperate "sections"
+
+        <div>
+            <h2 >Stitch is from Hawaii</h2>
+            <p>This page is about Stitch</p>
+        </div>
+        <div>
+            <p>Stitch</p>
+            <img src="stitch.png" alt="Sitch Sitting Pretty">
+        </div>
+        <div>
+            <h3 >Kirsten Markley</h3>
+            <p>&copy; 2025 </p>
+        </div>
+
+
+2-> Surround the content in a div
+3-> Add some styles
+
+        * demo using h2, h3 selectors to change font-variant
+        * replace with class="upper"
+4-> Introduce div container and ID
+5-> Semantic tags https://www.w3schools.com/html/html5_semantic_elements.asp
+    * change divs to nav, header, sections and footer
+    * demo that the validator suggests that the sections not use the <p> so swtich to <h2>
+    * emphasize that the headers should be in descending order
+6-> Add the second section - demo loremipsum - we will use this section for ID
+7-> demo the id in the anchor tag
+8-> add the a styling
+ -->

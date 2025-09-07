@@ -4,17 +4,32 @@
 body {
     background-color: beige;
     text-align: center;
+
+    /* Add font family here and to #ohana */
+    font-family: 'Courier New', Courier, monospace;
 }
 
-h2, h3 { font-variant: small-caps;} 
+/* add class small-caps to replace h2,h3*/
+/* h2, h3 { font-variant: small-caps;}  */
 
+.small-caps {
+    font-variant: small-caps;
+}
+
+/* added to second section "ohana means family */
+/* add font family to disaply in Dev tools */
+#ohana {
+    background-color: lavender;
+    padding: 15px;
+    font-family: Arial;
+}
 
 main{
         border: 1px solid blue;
-            width: 50%;
-            margin: auto;
-            border-radius: 3px;
-            box-shadow: 2px 5px 5px grey;
+        width: 50%;
+        margin: auto;
+        border-radius: 3px;
+        box-shadow: 2px 5px 5px grey;
 }
 
 
@@ -47,3 +62,11 @@ header {
     background-color: darkblue;
     color:white;
 }
+
+
+/*  Dev tools
+
+    * body - change position on the index page and see cross outs
+
+    * #ohana conflict with font-family
+ */
