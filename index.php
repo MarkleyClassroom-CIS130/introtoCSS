@@ -19,6 +19,10 @@
     <nav>
         <a href="index.html">Home</a> &#127804; <a href="https://movies.disney.com/lilo-and-stitch-2025" target="_blank">Fan Site</a> &#127804; <a href="#ohana">Ohana</a>
     </nav>
+    <?php
+
+
+    ?>
     
     <main>
         <header style="font-style: italic;">
